@@ -1,0 +1,57 @@
+V1 DU WORKFLOW TITANIC (on laisse on sait jamais)
+
+1 : Notre réunion initiale d'équipe :
+
+Nous nous sommes réunis en tant qu'équipe et avons discuté de nos objectifs communs pour le défi Titanic. Nous avons identifié les compétences et les rôles de chaque membre de l'équipe.
+
+2 :Notre formation de base :
+
+Nous avons consacré du temps à une formation de base en machine learning. Nous devons suivre des tutoriels en ligne ou des cours sur les concepts fondamentaux de l'apprentissage automatique.
+
+3 :Compréhension du problème :
+
+Nous devons lire la description du défi ensemble pour bien comprendre le problème que nous devrons résoudre : prédire la survie des passagers du Titanic en fonction des données disponibles.
+
+4:Notre exploration des données :
+
+Nous devons répartir la tâche d'explorer les données de l'ensemble de données du Titanic entre les membres de l'équipe. Chacun doit examiner différentes parties des données, telles que les caractéristiques des passagers.
+
+5 :Notre sélection de caractéristiques :
+
+Nous devons discuter et décider collectivement des caractéristiques que nous pensons importantes pour prédire la survie des passagers.
+
+6 :Notre prétraitement des données :
+
+En tant qu'équipe, nous devons travailler sur la gestion des valeurs manquantes et l'encodage des caractéristiques catégorielles.
+
+7   :Création de l'ensemble d'apprentissage et de test :
+
+Nous devons déterminer ensemble comment diviser l'ensemble de données en ensembles d'apprentissage et de test.
+
+8 :Choix d'un modèle simple :
+
+En tant qu'équipe débutante, nous devons commencer par utiliser un modèle simple, comme la régression logistique.
+
+9 :Notre entraînement du modèle :
+
+Nous devons travailler en collaboration pour entraîner notre modèle sur l'ensemble d'apprentissage.
+
+10 :Notre évaluation du modèle :
+
+Nous devons évaluer les performances de notre modèle en tant qu'équipe en utilisant l'ensemble de test. Nous devons discuter des résultats et partager nos observations.
+
+11 :Amélioration du modèle :
+
+Si notre modèle ne donne pas de résultats satisfaisants, nous devons collaborer pour apporter des améliorations, telles que l'ajout de nouvelles caractéristiques ou l'exploration de modèles plus avancés.
+
+12 :Nos prédictions finales :
+
+En tant qu'équipe, nous devons utiliser notre modèle formé pour faire des prédictions sur de nouvelles données ou sur les données de test.
+
+13 :Soumission sur Kaggle en tant qu'équipe :
+
+Nous devons soumettre nos prédictions sur Kaggle en tant qu'équipe pour voir comment notre modèle se compare aux autres participants.
+
+14 :Notre apprentissage continu en équipe :
+
+Nous devons utiliser l'expérience pour apprendre davantage ensemble, partager des ressources, explorer de nouvelles techniques, et continuer à améliorer nos compétences en machine learning en tant qu'équipe.

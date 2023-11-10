@@ -1,0 +1,25 @@
+WORKFLOW V2 TITANIC
+
+1:
+Formation en Machine Learning en suivant des tutos en lignes.
+
+2:
+Analyse des données/dossiers fournis
+
+3:
+Analyser les valeurs et sélectionner les bonnes valeurs requises pour répondre à la problématique
+
+4:
+Utilisation un modèle simple, comme la régression logistique.
+
+5:
+Entraîner le modèle sur les données que l'on a.
+
+6:
+Analyse des résultats des test.
+Si notre modèle ne donne pas de résultats satisfaisants -> collaborer pour apporter des améliorations, telles que l'ajout de nouvelles caractéristiques ou l'exploration de modèles plus avancés.
+Si Résultats non convaincant -> apporter des améliorations
+
+7:
+Utiliser le modèle formé sur de nouvelles données et ensuite soumettre les prédictions sur Kaggle et comparer avec les résultats des autres personnes
+

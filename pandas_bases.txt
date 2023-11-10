@@ -1,0 +1,59 @@
+## Créer, Lire et Écrire des Données
+
+# Lire un fichier CSV
+df = pd.read_csv('nomdufichier.csv')
+
+# Afficher les premières lignes du DataFrame
+df.head()
+
+# Écrire un DataFrame dans un fichier CSV
+df.to_csv('nomdufichier.csv', index=False)
+
+Indexation, Sélection et Assignation
+
+# Utiliser `loc` pour sélectionner par attribut
+selection_loc = df.loc[indice_de_lignes, 'nomdelacolonne']
+
+# Utilisation des deux-points (:) avec loc
+selection_loc_range = df.loc[debut:fin, 'nomdelacolonne']
+
+# Utiliser iloc pour sélectionner par position
+selection_iloc = df.iloc[debut:fin, indice_de_colonnes] Selectionne les tuples de debut à fin de  la colonne indice_de_colonnes
+
+
+fonctions utiles : 
+sum()  somme
+mean() moyenne
+idxmax() indice du maximum de la colonne
+
+
+map(f) elle itére sur la colonne choisi et lui applique le traitement f (f est une fonction)
+
+map retourne un nouveau dataframe. Il ne modifie pas l'ancien.
+
+Grouper :
+
+# Grouper par une colonne
+groupes = df.groupby('colonne')
+
+# Grouper par plusieurs colonnes
+groupes_multiples = df.groupby(['colonne1', 'colonne2'])
+
+# Utiliser `agg` pour agréger des données après le groupement
+resultats_agreges = groupes['colonne'].agg([min, max])
+
+
+exemple : What are the minimum and maximum prices for each variety of wine? Create a DataFrame whose index is the variety category from the dataset and whose values are the min and max values thereof.
+
+price_extremes = reviews.groupby('variety').price.agg([min,max])
+
+pd.isnull()
+fillna('dd') remplace les valeurs manquantes par dd
+rename() change le nom des colonnes
+
+
+# Concaténer deux DataFrames
+nouveau_df = pd.concat([df1, df2])
+
+# Joindre deux DataFrames comme en SQL
+df_resultat = partiegauche.join(partieDroite, lsuffix='attributAGauche', rsuffix='attributADroite')
